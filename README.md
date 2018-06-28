@@ -21,14 +21,12 @@ WordPress like shortcodes for Laravel 5.x
 [user id="1" display="name"]
 ```
 
-If you are looking for Laravel 4.2, see: https://github.com/patrickbrouwers/Laravel-Shortcodes
-
 ## Install
 
 Via Composer
 
 ``` bash
-$ composer require "webwizo/laravel-shortcodes:1.0.*"
+$ composer require "uzwebline/laravel_shortcodes:1.0.*"
 ```
 
 After updating composer, add the ServiceProvider to the providers array in `config/app.php`
