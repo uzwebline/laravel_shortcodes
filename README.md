@@ -34,13 +34,13 @@ After updating composer, add the ServiceProvider to the providers array in `conf
 ## Usage
 
 ```php
-Webwizo\Shortcodes\ShortcodesServiceProvider::class,
+Uzwebline\Shortcodes\ShortcodesServiceProvider::class,
 ```
 
 You can use the facade for shorter code. Add this to your aliases:
 
 ```php
-'Shortcode' => Webwizo\Shortcodes\Facades\Shortcode::class,
+'Shortcode' => Uzwebline\Shortcodes\Facades\Shortcode::class,
 ```
 
 The class is bound to the ioC as `shortcode`
@@ -219,24 +219,24 @@ If you discover any security related issues, please email umidjonsmail@gmail.com
 
 ## Credits
 
-- [Asif Iqbal][link-author]
+- [Umid Bazarov][link-author]
 - [All Contributors][link-contributors]
 
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/webwizo/laravel-shortcodes.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/uzwebline/laravel_shortcodes.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/webwizo/laravel-shortcodes/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/webwizo/laravel-shortcodes.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/webwizo/laravel-shortcodes.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/webwizo/laravel-shortcodes.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/uzwebline/laravel_shortcodes/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/uzwebline/laravel_shortcodes.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/uzwebline/laravel_shortcodes.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/uzwebline/laravel_shortcodes.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/webwizo/laravel-shortcodes
-[link-travis]: https://travis-ci.org/webwizo/laravel-shortcodes
-[link-scrutinizer]: https://scrutinizer-ci.com/g/webwizo/laravel-shortcodes/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/webwizo/laravel-shortcodes
-[link-downloads]: https://packagist.org/packages/webwizo/laravel-shortcodes
-[link-author]: https://github.com/webwizo
+[link-packagist]: https://packagist.org/packages/uzwebline/laravel_shortcodes
+[link-travis]: https://travis-ci.org/uzwebline/laravel_shortcodes
+[link-scrutinizer]: https://scrutinizer-ci.com/g/uzwebline/laravel_shortcodes/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/uzwebline/laravel_shortcodes
+[link-downloads]: https://packagist.org/packages/uzwebline/laravel_shortcodes
+[link-author]: https://github.com/uzwebline
 [link-contributors]: ../../contributors
