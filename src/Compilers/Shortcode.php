@@ -1,4 +1,4 @@
-<?php namespace Webwizo\Shortcodes\Compilers;
+<?php namespace Uzwebline\Shortcodes\Compilers;
 
 use Illuminate\Contracts\Support\Arrayable;
 

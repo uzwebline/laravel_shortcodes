@@ -1,6 +1,6 @@
 <?php
 
-namespace Webwizo\Shortcodes;
+namespace Uzwebline\Shortcodes;
 
 use Orchestra\Testbench\TestCase as TestBenchTestCase;
 
@@ -18,13 +18,13 @@ class TestCase extends TestBenchTestCase
 
     protected function getPackageProviders($app)
     {
-        return ['Webwizo\Shortcodes\ShortcodesServiceProvider'];
+        return ['Uzwebline\Shortcodes\ShortcodesServiceProvider'];
     }
 
     protected function getPackageAliases($app)
     {
         return [
-            'Shortcode' => 'Webwizo\Shortcodes\Facades\Shortcode'
+            'Shortcode' => 'Uzwebline\Shortcodes\Facades\Shortcode'
         ];
     }
 }

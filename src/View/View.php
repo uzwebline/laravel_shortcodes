@@ -1,9 +1,9 @@
-<?php namespace Webwizo\Shortcodes\View;
+<?php namespace Uzwebline\Shortcodes\View;
 
 use ArrayAccess;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\View\View as IlluminateView;
-use Webwizo\Shortcodes\Compilers\ShortcodeCompiler;
+use Uzwebline\Shortcodes\Compilers\ShortcodeCompiler;
 use Illuminate\Contracts\View\Engine as EngineInterface;
 
 class View extends IlluminateView implements ArrayAccess, Renderable
@@ -12,7 +12,7 @@ class View extends IlluminateView implements ArrayAccess, Renderable
     /**
      * Short code engine resolver
      *
-     * @var \Webwizo\Shortcodes\Compilers\ShortcodeCompiler
+     * @var \Uzwebline\Shortcodes\Compilers\ShortcodeCompiler
      */
     public $shortcode;
 
@@ -24,7 +24,7 @@ class View extends IlluminateView implements ArrayAccess, Renderable
      * @param  string                                               $view
      * @param  string                                               $path
      * @param  array                                                $data
-     * @param \Webwizo\Shortcodes\Compilers\ShortcodeCompiler       $shortcode
+     * @param \Uzwebline\Shortcodes\Compilers\ShortcodeCompiler       $shortcode
      */
     public function __construct(Factory $factory, EngineInterface $engine, $view, $path, $data = [], ShortcodeCompiler $shortcode)
     {

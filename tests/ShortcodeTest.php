@@ -1,14 +1,14 @@
 <?php
 
-namespace Webwizo\Shortcodes;
+namespace Uzwebline\Shortcodes;
 
-use Webwizo\Shortcodes\View\View;
+use Uzwebline\Shortcodes\View\View;
 
 class ShortcodeTest extends TestCase
 {
     public function testInstance()
     {
-        $this->assertInstanceOf(\Webwizo\Shortcodes\Shortcode::class, $this->shortcode);
+        $this->assertInstanceOf(\Uzwebline\Shortcodes\Shortcode::class, $this->shortcode);
     }
 
     public function testRegistrationAndCompileShortcode()

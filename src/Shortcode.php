@@ -1,13 +1,13 @@
-<?php namespace Webwizo\Shortcodes;
+<?php namespace Uzwebline\Shortcodes;
 
-use Webwizo\Shortcodes\Compilers\ShortcodeCompiler;
+use Uzwebline\Shortcodes\Compilers\ShortcodeCompiler;
 
 class Shortcode
 {
     /**
      * Shortcode compiler
      *
-     * @var \Webwizo\Shortcodes\Compilers\ShortcodeCompiler
+     * @var \Uzwebline\Shortcodes\Compilers\ShortcodeCompiler
      */
     protected $compiler;
 
@@ -27,7 +27,7 @@ class Shortcode
      * @param  string          $name
      * @param  callable|string $callback
      *
-     * @return \Webwizo\Shortcodes\Shortcode
+     * @return \Uzwebline\Shortcodes\Shortcode
      */
     public function register($name, $callback)
     {
@@ -39,7 +39,7 @@ class Shortcode
     /**
      * Enable the laravel-shortcodes
      *
-     * @return \Webwizo\Shortcodes\Shortcode
+     * @return \Uzwebline\Shortcodes\Shortcode
      */
     public function enable()
     {
@@ -51,7 +51,7 @@ class Shortcode
     /**
      * Disable the laravel-shortcodes
      *
-     * @return \Webwizo\Shortcodes\Shortcode
+     * @return \Uzwebline\Shortcodes\Shortcode
      */
     public function disable()
     {

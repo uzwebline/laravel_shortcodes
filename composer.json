@@ -1,5 +1,5 @@
 {
-    "name": "uzwebline/laravel-shortcodes",
+    "name": "uzwebline/laravel_shortcodes",
     "type": "library",
     "description": "Wordpress like shortcodes for Laravel 5.x",
     "keywords": [
@@ -7,13 +7,13 @@
         "wordpress",
         "shortcodes"
     ],
-    "homepage": "https://github.com/uzwebline/laravel-shortcodes",
+    "homepage": "https://github.com/uzwebline/laravel_shortcodes",
     "license": "MIT",
     "authors": [
         {
-            "name": "Asif Iqbal",
-            "email": "webwizo@gmail.com",
-            "homepage": "http://www.webwizo.com",
+            "name": "Umid Bazarov",
+            "email": "umidjonsmail@gmail.com",
+            "homepage": "http://www.uzwebline.com",
             "role": "Developer"
         }
     ],
@@ -34,12 +34,12 @@
             "tests/TestCase.php"
         ],
         "psr-4": {
-            "Webwizo\\Shortcodes\\": "src"
+            "Uzwebline\\Shortcodes\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Webwizo\\Shortcodes\\": "tests"
+            "Uzwebline\\Shortcodes\\": "tests"
         }
     },
     "scripts": {
@@ -48,10 +48,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Webwizo\\Shortcodes\\ShortcodesServiceProvider"
+                "Uzwebline\\Shortcodes\\ShortcodesServiceProvider"
             ],
             "aliases": {
-                "Shortcode": "Webwizo\\Shortcodes\\Facades\\Shortcode"
+                "Shortcode": "Uzwebline\\Shortcodes\\Facades\\Shortcode"
             }
         }
     }

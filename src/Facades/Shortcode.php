@@ -1,4 +1,4 @@
-<?php namespace Webwizo\Shortcodes\Facades;
+<?php namespace Uzwebline\Shortcodes\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,10 +1,10 @@
-<?php namespace Webwizo\Shortcodes\View;
+<?php namespace Uzwebline\Shortcodes\View;
 
 use Illuminate\Events\Dispatcher;
 use Illuminate\View\ViewFinderInterface;
 use Illuminate\View\Engines\EngineResolver;
 use Illuminate\View\Factory as IlluminateViewFactory;
-use Webwizo\Shortcodes\Compilers\ShortcodeCompiler;
+use Uzwebline\Shortcodes\Compilers\ShortcodeCompiler;
 
 class Factory extends IlluminateViewFactory
 {
@@ -21,7 +21,7 @@ class Factory extends IlluminateViewFactory
      * @param \Illuminate\View\Compilers\EngineResolver|EngineResolver $engines
      * @param  \Illuminate\View\ViewFinderInterface                    $finder
      * @param  \Illuminate\Events\Dispatcher                           $events
-     * @param \Webwizo\Shortcodes\Compilers\ShortcodeCompiler          $shortcode
+     * @param \Uzwebline\Shortcodes\Compilers\ShortcodeCompiler          $shortcode
      */
     public function __construct(EngineResolver $engines, ViewFinderInterface $finder, Dispatcher $events, ShortcodeCompiler $shortcode)
     {

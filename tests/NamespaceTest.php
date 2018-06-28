@@ -1,6 +1,6 @@
 <?php
 
-namespace Webwizo\Shortcodes;
+namespace Uzwebline\Shortcodes;
 
 use Orchestra\Testbench\TestCase;
 
@@ -10,7 +10,7 @@ class NamespaceTest extends TestCase
     {
         $factory = app('view')->getFinder();
 
-        app()->register('Webwizo\Shortcodes\ShortcodesServiceProvider');
+        app()->register('Uzwebline\Shortcodes\ShortcodesServiceProvider');
 
         $freshFactory = app('view')->getFinder();
 

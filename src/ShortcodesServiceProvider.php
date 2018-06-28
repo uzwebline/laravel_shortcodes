@@ -1,10 +1,10 @@
 <?php
 
-namespace Webwizo\Shortcodes;
+namespace Uzwebline\Shortcodes;
 
-use Webwizo\Shortcodes\View\Factory;
+use Uzwebline\Shortcodes\View\Factory;
 use Illuminate\Support\ServiceProvider;
-use Webwizo\Shortcodes\Compilers\ShortcodeCompiler;
+use Uzwebline\Shortcodes\Compilers\ShortcodeCompiler;
 
 class ShortcodesServiceProvider extends ServiceProvider
 {

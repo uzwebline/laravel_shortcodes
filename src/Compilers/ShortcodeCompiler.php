@@ -1,4 +1,4 @@
-<?php namespace Webwizo\Shortcodes\Compilers;
+<?php namespace Uzwebline\Shortcodes\Compilers;
 
 use Illuminate\Support\Str;
 
@@ -178,7 +178,7 @@ class ShortcodeCompiler
      *
      * @param $matches
      *
-     * @return \Webwizo\Shortcodes\Shortcode
+     * @return \Uzwebline\Shortcodes\Shortcode
      */
     protected function compileShortcode($matches)
     {
@@ -411,7 +411,7 @@ class ShortcodeCompiler
      *
      * @param  array $token
      *
-     * @return \Webwizo\Shortcodes\Shortcode
+     * @return \Uzwebline\Shortcodes\Shortcode
      */
     protected function parseTokenToObject($token)
     {
@@ -428,7 +428,7 @@ class ShortcodeCompiler
      *
      * @param  string $value
      *
-     * @return \Webwizo\Shortcodes\Shortcode
+     * @return \Uzwebline\Shortcodes\Shortcode
      */
     protected function parseShortcodes($value)
     {
@@ -442,7 +442,7 @@ class ShortcodeCompiler
      *
      * @param  array $matches
      *
-     * @return \Webwizo\Shortcodes\Shortcode
+     * @return \Uzwebline\Shortcodes\Shortcode
      */
     public function parseToObject($matches)
     {
