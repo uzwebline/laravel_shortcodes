@@ -11,7 +11,7 @@
 WordPress like shortcodes for Laravel 5.x based on webwizo/laravel-shortcodes see:https://github.com/webwizo/laravel-shortcodes
 
 ```php
-[b class="bold"]Bold text[/b]
+[b class="bold"]Bold text.[/b]
 
 [tabs]
   [tab]Tab 1[/tab]
